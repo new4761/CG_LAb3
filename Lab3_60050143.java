@@ -28,7 +28,7 @@ class Lab3_60050143 extends JPanel {
         int xPoly[] = { 150, 250, 325, 375, 400, 275, 100 };
         int yPoly[] = { 150, 100, 125, 225, 325, 375, 300 };
         Polygon poly = new Polygon(xPoly, yPoly, xPoly.length);
-        g.drawPolygon(poly);
+        g2.drawPolygon(poly);
         Point pT = new Point(200, 150);
 
         buffer = FLoodFill(g, buffer, pT, getCurrent_Color(buffer, pT), Color.GREEN);
